@@ -1,0 +1,25 @@
+ul
+{
+    
+    height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+    li
+    {
+        list-style: none;
+        display: inline;
+        font-size: 20px;
+        float: right;
+        padding-left: 20px;
+        position: relative;
+        right: 40px;
+        top: 10px;
+        
+        a{
+            color: white;
+            
+            
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+@import './mixin';
+@import './list';
+@import './pages';
+@import './tables';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+.images
+{
+    @include images();
+}
+
+
+
+
+
+
+    

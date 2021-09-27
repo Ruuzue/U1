@@ -1,0 +1,58 @@
+#Main
+{   
+    height: 1000px;
+    margin: 25px;
+    
+}
+.subpages
+{
+    height: 1000px;
+    margin: 25px;
+    
+}
+
+#pages{
+    
+    @include aligncenter();
+    background-color: white;
+    width: 80%;
+    order: 1;
+    
+    
+    
+}
+#page1{
+
+}
+#page3{
+    
+}
+#page4{
+    
+}
+#page5{
+    
+}
+
+
+.sidebars
+{
+    height: 6000px;
+    width: 10%;
+    background-color: lightblue;
+    
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+#sidebar_1{
+    order: 0;
+}
+#sidebar_2{
+    order: 2;
+}
+
+

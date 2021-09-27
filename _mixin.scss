@@ -1,0 +1,12 @@
+
+@mixin aligncenter 
+{
+    text-align: center;
+    
+}
+@mixin images {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 25px ;
+}
